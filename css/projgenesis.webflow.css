@@ -1117,7 +1117,6 @@ figcaption {
 
 .div-block-6 {
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .div-block-8 {
@@ -1129,10 +1128,10 @@ figcaption {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .div-block-9 {
@@ -1185,6 +1184,7 @@ figcaption {
 }
 
 .project-list {
+  list-style-type: none;
   display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
